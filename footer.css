@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background: #eee;
+}
+.footer_wrapper{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid blue;
+    display: flex;
+}
+.footer_item{
+    width: 20%;
+    height: 100%;
+    border: 2px solid red;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin: auto;
+    /* background: linear-gradient( red,blue, gold, pink, green, #fff, #555); */
+    /* background: linear-gradient(60deg, dodgerblue, red); */
+
+    /* background: radial-gradient(circle, #fff, dodgerblue, blue, red, green); */
+
+    background: conic-gradient(red, #fff);
+    transition: 10s linear;
+}
+.main:hover{
+    transform: rotate(7200deg);
+}

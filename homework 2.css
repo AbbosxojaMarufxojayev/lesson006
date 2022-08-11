@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(40deg, blue, black, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 250px;
+    margin-left: 40px;
+    height: 340px;
+    overflow: hidden;
+}
+.card2{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 250px;
+    margin-left: 40px;
+    height: 340px;
+    overflow: hidden;
+}
+.card3{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 250px;
+    margin-left: 40px;
+    height: 340px;
+    overflow: hidden;
+}
+.card1 img{
+    width: 400px;
+    height: 280px;
+    margin-left: -80px;
+    transition: 1s;
+    filter: hue-rotate(300deg);
+}
+.card1 h2{
+    transition: 1s;
+}
+.card1:hover img,
+.card1:hover h2{
+    transform:translateY(-75px) rotate(330deg);
+}
+.card1:hover .hover1{
+    margin-top: -55px;
+}
+.nike{
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+}
+.hover1{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 90px;
+    transition: 1s;
+    padding-top: 15px;
+}
+.size{
+    color: white;
+    margin-left: 25px;
+}
+.numbers{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.number1{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    padding-top: 3px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.number2{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number3{
+    width: 20px;
+    height: 22px;
+    font-size: 13px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number4{
+    width: 20px;
+    height: 22px;
+    background-color: white;
+    padding-left: 2px;
+    font-size: 13px;
+    margin-left: 15px;
+    padding-top: 3px;  
+    border-radius: 3px;
+}
+.colours{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.colors{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.green{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background-color: green;
+    border-radius: 50px;
+}
+.dodgerblue{
+    width: 20px;
+    margin-left: 15px;
+    height: 20px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+}
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 30px;
+}
+.card2 img{
+    width: 400px;
+    height: 280px;
+    margin-left: -80px;
+    transition: 1s;
+}
+.card2 h2{
+    transition: 1s;
+}
+.card2:hover img,
+.card2:hover h2{
+    transform:translateY(-75px) rotate(330deg);
+}
+.card2:hover .hover1{
+    margin-top: -55px;
+}
+.nike{
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+}
+.hover1{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 90px;
+    transition: 1s;
+    padding-top: 15px;
+}
+.size{
+    color: white;
+    margin-left: 25px;
+}
+.numbers{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.number1{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    padding-top: 3px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.number2{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number3{
+    width: 20px;
+    height: 22px;
+    font-size: 13px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number4{
+    width: 20px;
+    height: 22px;
+    background-color: white;
+    padding-left: 2px;
+    font-size: 13px;
+    margin-left: 15px;
+    padding-top: 3px;  
+    border-radius: 3px;
+}
+.colours{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.colors{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.green{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background-color: green;
+    border-radius: 50px;
+}
+.dodgerblue{
+    width: 20px;
+    margin-left: 15px;
+    height: 20px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+}
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 30px;
+}
+.card3 img{
+    width: 400px;
+    height: 280px;
+    margin-left: -80px;
+    transition: 1s;
+    filter: hue-rotate(200deg);
+}
+.card3 h2{
+    transition: 1s;
+}
+.card3:hover img,
+.card3:hover h2{
+    transform:translateY(-75px) rotate(330deg);
+}
+.card3:hover .hover1{
+    margin-top: -55px;
+}
+.nike{
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+}
+.hover1{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 90px;
+    transition: 1s;
+    padding-top: 15px;
+}
+.size{
+    color: white;
+    margin-left: 25px;
+}
+.numbers{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.number1{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    padding-top: 3px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.number2{
+    width: 20px;
+    font-size: 13px;
+    height: 22px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number3{
+    width: 20px;
+    height: 22px;
+    font-size: 13px;
+    background-color: white;
+    padding-left: 6px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 3px;  
+}
+.number4{
+    width: 20px;
+    height: 22px;
+    background-color: white;
+    padding-left: 2px;
+    font-size: 13px;
+    margin-left: 15px;
+    padding-top: 3px;  
+    border-radius: 3px;
+}
+.colours{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.colors{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.green{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background-color: green;
+    border-radius: 50px;
+}
+.dodgerblue{
+    width: 20px;
+    margin-left: 15px;
+    height: 20px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+}
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 30px;
+}
